@@ -1,6 +1,5 @@
 # 🚗 Vehicle Reservation App - QA Testing Project
 
-![QA Banner](./classeq.png)
 
 ## 📋 Project Description
 In this project, I designed and executed **functional** for a **vehicle reservation web application**.  
