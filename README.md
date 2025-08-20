@@ -31,8 +31,8 @@ To optimize test coverage, I applied the **Equivalence Partitioning technique**,
 ## 📊 Some sample Test Cases
 | ID | Test Scenario | Input | Expected Result | Status |
 |----|---------------|-------|-----------------|--------|
-| P-1 | The driving time and cost of a ride in a shared car on Urban Routes | Start:00:01 – End:08:00 | T = 1,4 km / 45 km/h = 1.9 min Price = 1.9 min * $0.1/min = $0.19 |  ⚠️ Bug reported |
-| P-2 | The driving time and cost of a carpool ride on Urban Routes | Start:08:01  – End: 12:00| T = 1,4 km / 30 km/h = 2.8 min Price = 2.8 min * $0.1/min = $0.28| ⚠️ Bug reported |
+| P-1 | The driving time and cost of a ride in a shared car on Urban Routes | Start: 00:01 – End: 08:00 | T = 1,4 km / 45 km/h = 1.9 min Price = 1.9 min * $0.1/min = $0.19 |  ⚠️ Bug reported |
+| P-2 | The driving time and cost of a carpool ride on Urban Routes | Start: 08:01 – End: 12:00| T = 1,4 km / 30 km/h = 2.8 min Price = 2.8 min * $0.1/min = $0.28| ⚠️ Bug reported |
 
 ---
 
