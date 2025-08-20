@@ -7,7 +7,7 @@ To optimize test coverage, I applied the **Equivalence Partitioning technique**,
 ---
 
 ## 🎯 Objectives
-- Ensure the correct functionality of the **vehicle reservation workflow**.  
+- Ensure the correct functionality of the **Calculation of travel time and cost**.  
 - Validate both **valid and invalid inputs** to check system robustness.  
 - Evaluate the **user interface consistency and usability**.  
  
@@ -23,24 +23,21 @@ To optimize test coverage, I applied the **Equivalence Partitioning technique**,
 
 ## 🔍 Testing Approach
 - Designed **equivalence classes** to optimize input validation tests.  
-- Created **functional test cases** for reservation process, date selection, vehicle availability, and booking confirmation.  
-- Designed **UI test cases** for layout, responsiveness, and error messages.  
+- Created **functional test cases** for Calculation of travel time and cost.   
 - Executed both **positive and negative test scenarios**.  
 
 ---
 
-## 📊 Sample Test Cases
+## 📊 Some sample Test Cases
 | ID | Test Scenario | Input | Expected Result | Status |
 |----|---------------|-------|-----------------|--------|
-| TC-01 | Reservation with valid date | Start: 05/20/2025 – End: 05/25/2025 | Reservation confirmed | ✅ Passed |
-| TC-02 | Reservation with invalid date range | Start: 05/25/2025 – End: 05/20/2025 | Error message displayed | ✅ Passed |
-| TC-03 | Reservation with empty fields | Start: [Empty] – End: [Empty] | Validation error | ⚠️ Bug reported |
+| P-1 | The driving time and cost of a ride in a shared car on Urban Routes | Start:00:01 – End:08:00 | T = 1,4 km / 45 km/h = 1.9 min Price = 1.9 min * $0.1/min = $0.19 |  ⚠️ Bug reported |
+| P-2 | The driving time and cost of a carpool ride on Urban Routes | Start:08:01  – End: 12:00| T = 1,4 km / 30 km/h = 2.8 min Price = 2.8 min * $0.1/min = $0.28| ⚠️ Bug reported |
 
 ---
 
 ## 🐞 Findings
-- Incorrect validation for some invalid date ranges.  
-- UI alignment issues in reservation confirmation screen.  
+- Incorrect validation for some invalid hours ranges.    
 - Missing error message for empty vehicle selection field.  
 
 ---
