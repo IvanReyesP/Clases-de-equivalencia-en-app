@@ -1,7 +1,7 @@
 # 🚗 Vehicle Reservation App - QA Testing Project
 
 ## 📋 Project Description
-In this project, I designed and executed **functional and UI test cases** for a **vehicle reservation web application**.  
+In this project, I designed and executed **functional** for a **vehicle reservation web application**.  
 To optimize test coverage, I applied the **Equivalence Partitioning technique**, identifying valid and invalid input ranges and creating test scenarios that validated the application’s logic.
 
 ---
@@ -9,7 +9,7 @@ To optimize test coverage, I applied the **Equivalence Partitioning technique**,
 ## 🎯 Objectives
 - Ensure the correct functionality of the **Calculation of travel time and cost**.  
 - Validate both **valid and invalid inputs** to check system robustness.  
-- Evaluate the **user interface consistency and usability**.  
+
  
 
 ---
