@@ -1,5 +1,7 @@
 # 🚗 Vehicle Reservation App - QA Testing Project
 
+![QA Banner](./sharecar.png)
+
 ## 📋 Project Description
 In this project, I designed and executed **functional** for a **vehicle reservation web application**.  
 To optimize test coverage, I applied the **Equivalence Partitioning technique**, identifying valid and invalid input ranges and creating test scenarios that validated the application’s logic.
